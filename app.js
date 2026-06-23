@@ -18,10 +18,10 @@ const state = {
     selfCitations: 0,
     aiContent: 0,
     checkDateTime: '',
-    checkEditing: true,
+    checkEditing: false,
     checkOCR: false,
-    checkStructure: true,
-    excludedSections: ['Приложение', 'Таблицы'],
+    checkStructure: false,
+    excludedSections: ['Титульный лист', 'Оглавление'],
     reportType: 'full'
 };
 
